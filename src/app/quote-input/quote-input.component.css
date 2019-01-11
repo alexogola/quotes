@@ -5,6 +5,11 @@
   padding: 20px;
   margin: 0 auto;
 }
+.titles {
+  font-family: 'Dancing Script', cursive;
+  font-size: 54px;
+  text-align: center;
+}
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
