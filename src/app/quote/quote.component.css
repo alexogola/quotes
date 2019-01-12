@@ -5,6 +5,12 @@
   padding-bottom: 40px;
   margin: 0 auto;
 }
+.jumbotron {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #ffffff;
+  padding-right: 8px;
+}
 .titles {
   font-family: 'Dancing Script', cursive;
   font-size: 54px;
