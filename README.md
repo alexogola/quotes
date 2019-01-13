@@ -6,6 +6,10 @@ Application where users can submit quotes and enter them into a popularity conte
 
 Alex Ogola
 
+## Technology used
+
+Angular cli was used alongside bootstrap and css to develop the Quote application. Git is used on the other side as the version control for tracking changes on the local and remote repository.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
