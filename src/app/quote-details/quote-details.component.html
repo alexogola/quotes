@@ -1,1 +1,18 @@
-<strong>Posted by Lex</strong>
+<div class="container">
+  <div class="jumbotron">
+    <p>{{quote.name}} ~ <i>{{quote.author}}</i></p>
+    <p>Posted by: <strong>{{quote.submit}}</strong> - <i>{{quote.completeDate|dateCount}} days ago</i></p>
+    <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-2">
+        <a class="btn btn-success" href="" (click)="voteUp()"><i class="fa fa-thumbs-up"> {{upVote}}</i></a>
+      </div>
+      <div class="col-md-2">
+        <a class="btn btn-danger" href="" (click)="voteDown()"><i class="fa fa-thumbs-down"> {{downVote}}</i></a>
+      </div>
+      <div class="col-md-2">
+        <button (click)='quoteComplete(true)' class="btn btn-outline-danger"><i class="fa fa-trash"></i></button>
+      </div>
+    </div>
+  </div>
+</div>

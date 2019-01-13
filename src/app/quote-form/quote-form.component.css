@@ -1,11 +1,4 @@
 /* Style inputs, select elements and textareas */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding-top: 20px;
-  padding-bottom: 40px;
-  margin: 0 auto;
-}
 .titles {
   font-family: 'Dancing Script', cursive;
   font-size: 54px;
@@ -30,11 +23,11 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin: 0 auto;
+  margin-top: 20px;
 }
 .form {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 38px;
 }
 /* Floating column for inputs: 75% width */
 .col-75 {

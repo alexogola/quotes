@@ -1,23 +1,23 @@
 <div class="container">
   <h3 class="titles">Inspire The Great</h3>
 <div class="form">
-    <form name="triangleForm">
+    <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-10">
-          <textarea name="name" rows="4" cols="80" placeholder="Enter Inspirational Quote"></textarea>
+          <textarea name="quote" class="form-control" id="quote" [(ngModel)]="newQuote.name" rows="4" cols="80" placeholder="Enter Inspirational Quote"></textarea>
         </div>
         <div class="col-md-1"></div>
       </div>
       <div class="row">
               <div class="col-md-1"></div>
-              <div class="col-md-5"><input type="text" id="" name="" placeholder="Author's Name"></div>
-              <div class="col-md-5"><input type="text" id="" name="" placeholder="Your Name"></div>
+              <div class="col-md-5"><input name="author" class="form-control" id="author" [(ngModel)]="newQuote.author" placeholder="Author's Name"></div>
+              <div class="col-md-5"><input name="name" class="form-control" id="name" [(ngModel)]="newQuote.submit" placeholder="Your Name"></div>
               <div class="col-md-1"></div>
             </div>
       <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-10">
+        <div class="col-md-10">
         <input type="submit" value="Submit">
         </div>
         <div class="col-md-1"></div>
