@@ -2,6 +2,10 @@
 
 Application where users can submit quotes and enter them into a popularity contest based on a voting system. This Quote project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
+## Author name
+
+Alex Ogola
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
